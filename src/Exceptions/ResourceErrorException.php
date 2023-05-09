@@ -1,6 +1,6 @@
 <?php
 
-namespace CieloApi\CieloApi\Exceptions;
+namespace WPatricio\CieloApi\Exceptions;
 
 class ResourceErrorException extends \Exception
 {

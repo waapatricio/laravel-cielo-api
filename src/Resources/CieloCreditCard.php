@@ -1,6 +1,6 @@
 <?php
 
-namespace CieloApi\CieloApi\Resources;
+namespace WPatricio\CieloApi\Resources;
 
 class CieloCreditCard
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace CieloApi\CieloApi\Responses;
+namespace WPatricio\CieloApi\Responses;
 
 class ResourceResponse
 {

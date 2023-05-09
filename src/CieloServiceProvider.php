@@ -1,6 +1,6 @@
 <?php
 
-namespace CieloApi\CieloApi;
+namespace WPatricio\CieloApi;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,15 +1,15 @@
 <?php
 
-namespace CieloApi\CieloApi;
+namespace WPatricio\CieloApi;
 
-use CieloApi\CieloApi\Resources\CieloPayment;
-use CieloApi\CieloApi\Resources\CieloCustomer;
-use CieloApi\CieloApi\Resources\CieloOrder;
-use CieloApi\CieloApi\Resources\CieloCreditCard;
-use CieloApi\CieloApi\Responses\ResourceResponse;
-use CieloApi\CieloApi\Requests\TokenizeCardRequest;
-use CieloApi\CieloApi\Requests\BinQuery;
-use CieloApi\CieloApi\Exceptions\ResourceErrorException;
+use WPatricio\CieloApi\Resources\CieloPayment;
+use WPatricio\CieloApi\Resources\CieloCustomer;
+use WPatricio\CieloApi\Resources\CieloOrder;
+use WPatricio\CieloApi\Resources\CieloCreditCard;
+use WPatricio\CieloApi\Responses\ResourceResponse;
+use WPatricio\CieloApi\Requests\TokenizeCardRequest;
+use WPatricio\CieloApi\Requests\BinQuery;
+use WPatricio\CieloApi\Exceptions\ResourceErrorException;
 
 
 use Cielo\API30\Merchant;

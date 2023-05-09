@@ -1,5 +1,6 @@
 {
     "name": "washingtonpatricio/laravel-cielo-api",
+    "description": "API Cielo 3.0 for Laravel",
     "type": "library",
     "autoload": {
         "psr-4": {
@@ -27,11 +28,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Barryvdh\\Debugbar\\ServiceProvider"
-            ],
-            "aliases": {
-                "Debugbar": "Barryvdh\\Debugbar\\Facade"
-            }
+                "WPatricio\\CieloApi\\CieloServiceProvider"
+            ]
         }
     }
 }

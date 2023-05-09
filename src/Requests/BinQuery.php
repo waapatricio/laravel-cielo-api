@@ -1,5 +1,5 @@
 <?php
-namespace CieloApi\CieloApi\Requests;
+namespace WPatricio\CieloApi\Requests;
 
 use Cielo\API30\Ecommerce\Request\AbstractRequest;
 use Cielo\API30\Ecommerce\Environment;

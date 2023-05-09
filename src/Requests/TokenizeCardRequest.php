@@ -1,13 +1,11 @@
 <?php
-namespace CieloApi\CieloApi\Requests;
+namespace WPatricio\CieloApi\Requests;
 
 use Cielo\API30\Ecommerce\Request\AbstractRequest;
 use Cielo\API30\Ecommerce\Environment;
 use Cielo\API30\Merchant;
 
-use jlcd\Cielo\Resources\CieloCreditCard;
-
-// Shouldn't extend AbstractSaleRequest as it is not a Sale, but 
+// Shouldn't extend AbstractSaleRequest as it is not a Sale, but
 // I guess this is the best way to keep things in order using
 // Cielo's Oficial 3.0 PHP SDK
 class TokenizeCardRequest extends AbstractRequest

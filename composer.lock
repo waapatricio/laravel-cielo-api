@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c87ce1bbced95de811687b7e8151f3d",
+    "content-hash": "492d0d6861673cc5f1b31263cbb18d10",
     "packages": [
         {
             "name": "developercielo/api-3.0-php",
