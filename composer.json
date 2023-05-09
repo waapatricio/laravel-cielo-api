@@ -1,0 +1,37 @@
+{
+    "name": "washingtonpatricio/laravel-cielo-api",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "CieloApi\\CieloApi\\": "src/"
+        }
+    },
+    "keywords": [
+        "api",
+        "cielo",
+        "laravel",
+        "lumen"
+    ],
+    "authors": [
+        {
+            "name": "Washington Patrício",
+            "email": "washington@tappa.co"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "developercielo/api-3.0-php": "^1.0"
+
+    },
+    "license": "Apache-2.0",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Barryvdh\\Debugbar\\ServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
+    }
+}
